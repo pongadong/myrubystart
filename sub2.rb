@@ -12,6 +12,7 @@ while i>0
       end
   else 
     puts('NO, NOT SINCE ' + (1930 + rand(21)).to_s + ' !')
+    i=3
   end  
 end
 puts 'OH, BYE THEN!'
